@@ -1,5 +1,5 @@
 # slackup-grub
-is a script which update-grub when new kernel is installed in Slackware system before shutdown or reboot.
+is a script which update-grub, when new Linux kernel is installed in a Slackware system, before shutdown or reboot.
 
 1. This scipt is for lazy people who dont have a second kernel as backup in system
 2. Using Grub in Slackware
