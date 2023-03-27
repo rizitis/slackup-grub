@@ -3,7 +3,8 @@ is a script which update-grub, when new Linux kernel is installed in a Slackware
 
 1. This scipt is for lazy people who dont have a second kernel as backup in system
 2. Using Grub in Slackware
-3. And always forgot to update-grub when **slackpkg update;slackpkg upgrade-all** installing new kernel in your system.
+3. And always forgot to update-grub when **slackpkg update;slackpkg upgrade-all** installing new kernel in them 
+system.
 
 With this script in your installation WHEN you forgot to updated grub , before reboot or shutdown it will do it for you.
 If you didnt forget to update grub its not a problem, it will do it again for you because  **slackup-grub** dont trust you :D
