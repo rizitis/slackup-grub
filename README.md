@@ -51,3 +51,6 @@ If you want to see how it work you can run it again...
 
 
 GOOD LUCK!
+
+
+ps. If you build custom kernels slackup-grub wont update grub. Thats your job ;)
