@@ -40,6 +40,10 @@ Then
 ```
 updatedb
 ```
+# NOTE!!!
+Keep your mind on Slackware updates. If a/sysvinit-scripts upgraded or rebuilded from Pat,
+then if you overwrite your /etc/rc.d/rc.6 commands you must edit it again... 
+
 
 ## HOWTO
 First time you must run script manually to create some needed files.
