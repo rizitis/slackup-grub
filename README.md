@@ -17,7 +17,7 @@ cp slackup-grub.sh /etc/rc.d/
 chmod +x /etc/rc.d/slackup-grub.sh
 ```
 
-After that open with your text editor */etc/rc.d/rc.6*
+After that open with your text editor */etc/rc.d/rc.local_shutdown*
 
 and add these lines
 ```
@@ -26,24 +26,10 @@ if [ -x /etc/rc.d/slackup-grub.sh ]; then
    /etc/rc.d/slackup-grub.sh
 fi
 ```
-Its better in my opinion to add them before *rc.local_shutdown* call
-
-I mean before this:
-```
-# Run any local shutdown scripts:
-if [ -x /etc/rc.d/rc.local_shutdown ]; then
-  /etc/rc.d/rc.local_shutdown stop
-fi
-```
-
 Then 
 ```
 updatedb
 ```
-# NOTE!!!
-Keep your mind on Slackware updates. If a/sysvinit-scripts upgraded or rebuilded from Pat,
-then if you overwrite your /etc/rc.d/rc.6 commands you must edit it again... 
-
 
 ## HOWTO
 First time you must run script manually to create some needed files.
